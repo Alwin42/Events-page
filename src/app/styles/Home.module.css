@@ -1,0 +1,18 @@
+.eventsSection {
+    background-color: #f97316; /* Orange background */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .eventsSection h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .eventsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  

@@ -1,0 +1,47 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .eventBadge {
+    display: inline-block;
+    background-color: #f97316;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .time {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .location {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
